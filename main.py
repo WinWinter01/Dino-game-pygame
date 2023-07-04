@@ -15,7 +15,7 @@ class Main_Loop():
         self.showMenu = True
         
         self.window = pygame.display.set_mode((self.cfg.window_width,  self.cfg.window_height), pygame.DOUBLEBUF)
-        pygame.display.set_caption('"Dino run" created by Vadym Bazalei')
+        pygame.display.set_caption('"Dino run" created by WinWinter')
         
         self.run()
         
